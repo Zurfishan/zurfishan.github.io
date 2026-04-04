@@ -1,5 +1,5 @@
 # Site settings
-title: "Zurfishan - Computer Engineering Student"
+title: "Zurfishan"
 author: "Zurfishan"
 description: "Computer Engineering student sharing my journey, projects, and insights"
 permalink: /:title/
@@ -7,29 +7,27 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-# Layout settings
-show_excerpts: true             # show article excerpts on home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
+# Hero
+name: "Hey, I'm Zurfishan 👋"
+subtitle: "Computer Engineering Student | Developer | Problem Solver"
 
-# Navigation menu
+# Layout
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+show_minimal: false
+
+# Navigation - Minimal
 navigation:
-  - {file: "archive.html", title: "Archive", icon: archive, sidebaricon: home}
-  - {file: "README.md", title: "About Me", icon: user, sidebaricon: address-card}
- 
+  - {title: "Home", file: "index.html"}
+  - {title: "Blog", file: "archive.html"}
+  - {title: "About", file: "README.md"}
+  
 
-# External links (social/professional)
+# Social - Only GitHub & LinkedIn
 external:
-  - {title: Email, icon: envelope, url: "mailto:zurfishan.email@gmail.com"}  # CHANGE THIS
-  - {title: GitHub, icon: github, url: "https://github.com/zurfishan"}
-  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/zurfishan"}  # ADD YOUR LINK
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-# Comments (optional - leave disabled for now)
-comments:
-#  disqus_shortname: ""
-#  isso_domain: ""
+  - {title: "GitHub", url: "https://github.com/zurfishan"}
+  - {title: "LinkedIn", url: "https://linkedin.com/in/zurfishan"}
 
 # Plugins
 plugins:
