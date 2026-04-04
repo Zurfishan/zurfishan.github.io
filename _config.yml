@@ -17,11 +17,11 @@ show_minimal: false             # remove all clutter
 navigation:
   - {file: "archive.html", title: "Archive", icon: archive, sidebaricon: home}
   - {file: "README.md", title: "About Me", icon: user, sidebaricon: address-card}
-  - {title: "Projects", icon: code, url: "/projects/"}
+ 
 
 # External links (social/professional)
 external:
-  - {title: Email, icon: envelope, url: "mailto:your.email@example.com"}  # CHANGE THIS
+  - {title: Email, icon: envelope, url: "mailto:zurfishan.email@gmail.com"}  # CHANGE THIS
   - {title: GitHub, icon: github, url: "https://github.com/zurfishan"}
   - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/zurfishan"}  # ADD YOUR LINK
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
