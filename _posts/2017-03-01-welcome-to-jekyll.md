@@ -1,25 +1,25 @@
 ---
-title: "Welcome to Jekyll"
+title: "Git & GitHub: Complete Beginner's Guide to Push, Pull & More"
 layout: post
+date: 2026-04-04
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+![Git and GitHub Collaboration](https://e0.pxfuel.com/wallpapers/478/564/desktop-wallpaper-github-3d-logo-gray-brickwall-creative-social-networks-github-logo-3d-art-github-thumbnail.jpg)
+
+You'll find version control confusing at first - I definitely did! But after using Git daily as a Computer Engineering student, I've learned that mastering just 10 commands will cover 90% of what you'll ever need. Let me walk you through everything from installation to pushing your first project to GitHub.
+
+## Why Every Developer Needs Git
+
+Git tracks every change you make to your code. Made a mistake? Go back in time. Want to try something experimental? Create a branch. Working with friends? Merge everyone's work seamlessly. It's like having a "save point" system for your entire project.
 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+## Getting Started: Installation
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Windows
+Download Git from [git-scm.com](https://git-scm.com) and install with default settings.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Mac
+```bash
+brew install git
+# Or download the installer from git-scm.com
