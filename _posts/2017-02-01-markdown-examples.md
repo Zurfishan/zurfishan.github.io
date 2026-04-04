@@ -1,87 +1,35 @@
 ---
-title:  "Markdown examples"
+title: "Mastering CSS Grid & Flexbox: A Beginner's Journey"
+date: 2026-04-04
 layout: post
 ---
 
-![Coffee](https://user-images.githubusercontent.com/4943215/74586455-c8048300-4fe7-11ea-84ba-aa49f3abb014.jpeg)
+![CSS Grid and Flexbox Layout Concept](https://user-images.githubusercontent.com/4943215/74586455-c8048300-4fe7-11ea-84ba-aa49f3abb014.jpeg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+When I first started learning web layout techniques, CSS Grid and Flexbox seemed intimidating. Two different systems? When do you use which? After weeks of practice and building projects, I finally cracked the code. Let me share what I learned on this journey.
+
+## Why I Needed to Learn Both
+
+As a Computer Engineering student, I assumed CSS was just "styling" - boy, was I wrong! Modern web layouts demand precision and responsiveness. Flexbox handles **one-dimensional layouts** (rows OR columns), while Grid handles **two-dimensional layouts** (rows AND columns simultaneously).
 
 Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit.
 
+## Understanding Flexbox (1D Layout)
 
-## Heading Two (h2)
+### The Core Concept
 
-### Heading Three (h3)
+Flexbox is perfect for:
+- Navigation bars
+- Card alignment in a single row
+- Centering content vertically
+- Distributing space between items
 
-#### Heading Four (h4)
+### Basic Flexbox Properties
 
-##### Heading Five (h5)
-
-###### Heading Six (h6)
-
-
-## Blockquotes
-
-### Single line
-
-> My mom always said life was like a box of chocolates. You never know what you're gonna get.
-
-### Multiline
-
-> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
->
-> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
->
-> – _Hal Incandenza_
-
-## Horizontal Rule
-
----
-
-## Table
-
-| Title 1          | Title 2          | Title 3         | Title 4         |
-|------------------|------------------|-----------------|-----------------|
-| First entry      | Second entry     | Third entry     | Fourth entry    |
-| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
-| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
-| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
-
-## Code
-
-Source code can be included by fencing the code with three backticks. Syntax highlighting works automatically when specifying the language after the backticks.
-
-````
-```javascript
-function foo () {
-    return "bar";
+```css
+.container {
+    display: flex;
+    justify-content: space-between;  /* Horizontal alignment */
+    align-items: center;              /* Vertical alignment */
+    gap: 20px;                        /* Space between items */
 }
-```
-````
-
-This would be rendered as:
-
-```javascript
-function foo () {
-    return "bar";
-}
-```
-
-## Lists
-
-### Unordered
-
-* First item
-* Second item
-* Third item
-    * First nested item
-    * Second nested item
-
-### Ordered
-
-1. First item
-2. Second item
-3. Third item
-    1. First nested item
-    2. Second nested item
