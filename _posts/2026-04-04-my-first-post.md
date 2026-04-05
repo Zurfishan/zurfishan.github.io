@@ -15,7 +15,7 @@ This is my first blog post. I'm a Computer Engineering student, and I'll be shar
 
 ## Why Computer Engineering?
 
-[Write your reason here]
+versatile career paths in designing hardware, software, and integrated systems like robots, processors, and AI technology.
 
 ## What's next?
 
